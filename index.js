@@ -96,7 +96,7 @@ const loader = async (option) => {
           imgObj.push({
             newImgUrl,
             imgUrl: imgArr[idx],
-            imgPath: `./images/${imgName}`
+            imgPath: `./wyq/${imgName}`
           });
         } else {
           if (option.config && option.config.uploadUrl && option.config.uploadUrl !== 'undefined') {
