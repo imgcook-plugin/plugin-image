@@ -88,10 +88,10 @@ const loader = async (option) => {
             const regex = new RegExp(`"${imgArr[idx]}"`, 'g');
             fileValue = fileValue.replace(
               regex,
-              `require('./images/${imgName}')`
+              `require('./wyq/${imgName}')`
             );
           } else {
-            fileValue = fileValue.replace(reg, `./images/${imgName}`);
+            fileValue = fileValue.replace(reg, `./wyq/${imgName}`);
           }
           imgObj.push({
             newImgUrl,
