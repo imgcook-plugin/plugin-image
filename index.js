@@ -47,7 +47,7 @@ const loader = async (option) => {
     );
     if (imgArr && imgArr.length > 0) {
       imgArr = unique(imgArr);
-      const imgPath = `${filePath}/images`;
+      const imgPath = `${filePath}/wyq`;
       let imgObj = [];
       const imgrc = `${imgPath}/.imgrc`;
       if (fs.existsSync(imgrc)) {
